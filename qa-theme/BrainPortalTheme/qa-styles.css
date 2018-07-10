@@ -490,7 +490,9 @@ h2 {font-size:16px; padding: 4px 0 6px; clear:both;}
 .qa-avatar-link,.qa-avatar-link:hover {text-decoration:none;}
 .qa-favorite-image {background:url(favorite-plus.gif) no-repeat; background-position: 0 -26px; border:0; margin:2px; height:26px; width:26px; vertical-align:middle; display:inline-block;}
 
-
+/*
+	@todo include these styles to the rules above
+ */
 
 .qa-part-q-view {
     margin-bottom: 10px;
@@ -501,99 +503,119 @@ h2 {font-size:16px; padding: 4px 0 6px; clear:both;}
 }
 .qa-part-a-list > h2 {
     margin: 20px 0 15px;
-}html {
-  margin: 0 !important;
-  overflow: auto;
+}
+
+
+
+html {
+	margin: 0 !important;
+	overflow: auto;
 }
 
 .qa-q-item-title {
-  padding-top: 5px;
+	padding-top: 5px;
 }
 
 .qa-q-item-title a {
-  font-family: inherit;
-  color: #444444;
+	font-family: inherit;
+	color: #444444;
 }
 
 .qa-body-wrapper {
-  margin: 0;
-  padding: 0;
-  width: 100%;
+	margin: 0;
+	padding: 0;
+	width: 100%;
 }
 
 .qa-logo {
-  display: none;
+	display: none;
 }
 
 .qa-footer {
-  visibility: hidden;
-  height: 0;
+	visibility: hidden;
+	height: 0;
 }
 
 .qa-nav-main {
-  border-top: 0 none;
+	border-top: 0 none;
 }
 
 .qa-a-count-data {
-  font-size: 20px;
-  margin-top: 6px;
+	font-size: 20px;
+	margin-top: 6px;
 }
 
 a:hover {
-  color: #0098cc !important;
+	color: #0098cc !important;
 }
 
 a.qa-nav-main-selected,
 a.qa-nav-sub-selected {
-  color: #00beff;
+	color: #00beff;
 }
 
 .qa-q-item-avatar-meta {
-  float: none;
-  font-size: 12px;
+	float: none;
+	font-size: 12px;
 }
 
 .qa-suggest-next a,
 .qa-suggest-next a:hover {
-  background: none;
-  padding: 0;
-  text-decoration: underline;
+	background: none;
+	padding: 0;
+	text-decoration: underline;
 }
 
 .qa-q-list-item {
-  border-bottom: 1px solid #EDEDED;
+	border-bottom: 1px solid #EDEDED;
 }
 
 .qa-a-count {
-  min-width: 50px;
+	min-width: 50px;
 }
 
 div[itemprop="text"] {
-  line-height: normal;
-  font-size: 14px;
+	line-height: normal;
+	font-size: 14px;
 }
 
 div[itemprop="text"] > p,
 div[itemprop="text"] > ul,
 div[itemprop="text"] > ol {
-  margin-bottom: 16px;
+	margin-bottom: 16px;
 }
 
 div[itemprop="text"] > ul,
 div[itemprop="text"] > ol {
-  padding-left: 32px;
+	padding-left: 32px;
 }
 
 div[itemprop="text"] > ul {
-  list-style-type: disc;
+	list-style-type: disc;
 }
 
 div[itemprop="text"] > ol {
-  list-style-type: decimal;
+	list-style-type: decimal;
 }
 
 .qa-form-light-button, .qa-form-light-hover {
-  font-size: 12px;
-  border: 1px solid #ccc;
-  padding: 6px;
+	font-size: 12px;
+	border: 1px solid #ccc;
+	padding: 6px;
+}
+
+blockquote {
+	background: #eee;
+	padding: 15px;
+	margin: 30px auto;
+	border: 1px solid #aaa;
+	font-size: 16px;
+	font-style: italic;
+	color: #000;
+	position: relative;
+}
+
+blockquote p {
+	margin: 0;
+	padding: 0;
 }

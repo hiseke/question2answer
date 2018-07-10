@@ -29,8 +29,7 @@ rm -rf /tmp/qa-ldap-login
 #
 # patch css
 #
-rm -rf ./qa-theme/TwentyTwelve /tmp/Q2A-TwentyTwelve
-git clone -b master --depth 1 https://github.com/q2a-projects/Q2A-TwentyTwelve.git /tmp/Q2A-TwentyTwelve
-mv /tmp/Q2A-TwentyTwelve/TwentyTwelve ./qa-theme/
-rm -rf /tmp/Q2A-TwentyTwelve
-cat ./qa-theme/portal.css >> ./qa-theme/TwentyTwelve/qa-styles.css
+rm -rf ./qa-theme/BrainPortalTheme /tmp/Q2A-BrainPortalTheme
+git clone -b master --depth 1 https://github.com/mmethner/Q2A-BrainPortalTheme.git /tmp/Q2A-BrainPortalTheme
+mv /tmp/Q2A-BrainPortalTheme/BrainPortalTheme ./qa-theme/
+rm -rf /tmp/Q2A-BrainPortalTheme
