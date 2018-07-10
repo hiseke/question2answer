@@ -31,5 +31,5 @@ rm -rf /tmp/qa-ldap-login
 #
 rm -rf ./qa-theme/BrainPortalTheme /tmp/Q2A-BrainPortalTheme
 git clone -b master --depth 1 https://github.com/mmethner/Q2A-BrainPortalTheme.git /tmp/Q2A-BrainPortalTheme
-mv /tmp/Q2A-BrainPortalTheme/BrainPortalTheme ./qa-theme/
+mv /tmp/Q2A-BrainPortalTheme/BrainPortal ./qa-theme/
 rm -rf /tmp/Q2A-BrainPortalTheme
