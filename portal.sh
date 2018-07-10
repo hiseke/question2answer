@@ -22,7 +22,7 @@ rm -rf /tmp/qa-lang-de
 #
 rm -rf ./qa-plugin/qa-ldap-login
 git clone -b master --depth 1 https://github.com/zakkak/qa-ldap-login /tmp/qa-ldap-login
-rm -rf /tmp/qa-lang-de/.git
+rm -rf /tmp/qa-ldap-login/.git
 mv /tmp//tmp/qa-ldap-login ./qa-plugin/
 rm -rf /tmp/qa-ldap-login
 
